@@ -3,10 +3,10 @@
 
 /* paleta de colores */
 :root {
-    --color1: #112236; /* menú */
-    --color2: #436280; /* hover menú */
+    --color1: #0B5345; /* menú */
+    --color2 :#108e91 ; /* hover menú */
     --color3: #ffffff; /* tipografía y fondo*/
-    --color5: #c10416; /* botones y logo */
+    --color5: orange; /* botones y logo */
 }
 
 /* GENERALES */
@@ -16,7 +16,7 @@
     padding: 0;
     line-height: 1.5;
     font-family: 'Changa', sans-serif;
-    color: var(--color3);
+    color: #ffffff;
 }
 
 /* MENÚ */
@@ -31,9 +31,14 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--color1);
+    background: linear-gradient(to bottom, rgb(8, 53, 44),#0B5345);
 }
-
+.btn_menu i{
+    margin-left: 10px;
+    font-size: 18px;
+    color: #108e91;
+    text-shadow: 1px 1px 2px orange;
+}
 .logo {
     width: 100%;
     height: 30%;
@@ -56,7 +61,7 @@
 
 .logo .apellido {
     font-size: 1rem;
-    color: var(--color5);
+    color: orange;
     font-weight: bold;
     line-height: 1;
 }
@@ -76,7 +81,7 @@
     height: 20%;
     list-style-type: none;
     text-transform: uppercase;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     text-align: center;
     display: flex;
     align-items: center;
@@ -94,21 +99,21 @@
 }
 
 .navegacion ul li a:hover {
-    color: var(--color2);
+    color: #108e91;
     transition: color .15s ease-in-out;
 }
 
 .navegacion ul li a.activa {
-    color: var(--color2);
+    color: #108e91;
 }
 
 .descargar-cv {
-    color: var(--color3);
-    background-color: var(--color5);
+    color: white;
+    background-color: orange;
 }
 
 .descargar-cv:hover{
-    color: var(--color1) !important;
+    color: #0B5345 !important;
 }
 
 .rrss {
@@ -127,7 +132,7 @@
 }
 
 .rrss a i:hover {
-    color: var(--color5);
+    color: orange;
     transition: color .15s ease-in-out;
 }
 
@@ -150,8 +155,8 @@
 .quien-soy {
     width: 100%;
     height: 100vh;
-    border-top: 2px solid var(--color1);
-    border-right: 2px solid var(--color1);
+    border-top: 2px solid #0B5345;
+    border-right: 2px solid #0B5345;
     position: relative;
     display: flex;
     justify-content: center;
@@ -169,27 +174,28 @@
 }
 
 .quien-soy h1 {
-    color: var(--color1);
+    color: #0B5345;
     font-size: 4rem;
     line-height: 1.2;
 }
 
 .emoji-saludo {
     font-size: 3rem;
-    color: var(--color1);
+    color:#0B5345;
 }
 
 .quien-soy p {
     width: 60%;
-    color: var(--color2);
+    color: black;
     margin-top: 10px;
     margin-bottom: 10px;
-    font-size: 1rem;
+    font-size: 15px;
     text-align: left;
 }
 
 .quien-soy a {
-    color: var(--color5);
+    cursor: pointer;
+    color: orange;
     font-size: 1rem;
     width: 130px;
     display: flex;
@@ -200,12 +206,13 @@
 }
 
 .quien-soy a i {
-    color: var(--color5);
+    cursor: pointer;
+    color: orange;
     font-size: 1rem;
 }
 
 .modal {
-    background-color: var(--color3) !important;
+    background-color: white !important;
     border-radius: 0px;
     -webkit-border-radius: 0px;
     -moz-border-radius: 0px;
@@ -233,7 +240,7 @@
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    border-bottom: 2px solid var(--color1);
+    border-bottom: 2px solid #0B5345;
 }
 
 .imagen-modal img {
@@ -249,12 +256,12 @@
 .texto-modal p {
     margin-bottom: 1rem;
     text-align: left;
-    color: var(--color2) !important;
+    color: black !important;
 }
 
 .texto-modal span {
     font-style: italic;
-    color: var(--color2);
+    color: #0B5345;
 }
 
 .svg-quien-soy-1, .svg-habilidades-1, .svg-proyectos-1, .svg-contacto-1{
@@ -284,11 +291,11 @@
 
 .ubicacion i {
     font-size: 2rem;
-    color: var(--color1);
+    color: #0B5345;
 }
 
 .ubicacion span {
-    color: var(--color1);
+    color: #0B5345;
 }
 
 .bajar {
@@ -303,7 +310,7 @@
 
 .bajar span {
     font-size: 1.1rem;
-    color: var(--color1);
+    color: #0B5345;
     text-transform: lowercase;
     transform: rotate(90deg);
     font-weight: bold;
@@ -313,20 +320,20 @@
 
 .bajar i {
     font-size: 1.1rem;
-    color: var(--color1);
+    color: #0B5345;
     margin-top: 1rem;
 }
 
 /* HABILIDADES */
 .habilidades {
     width: 100%;
-    border-right: 2px solid var(--color1);
+    border-right: 2px solid #0B5345;
     position: relative;
     padding-bottom: 200px;
 }
 
 .habilidades h2 {
-    color: var(--color1);
+    color: #0B5345;
     font-size: 2rem;
     text-transform: uppercase;
     text-align: center;
@@ -334,7 +341,7 @@
 }
 
 .habilidades p {
-    color: var(--color2);
+    color: black;
     text-align: center;
 }
 
@@ -363,13 +370,13 @@
 }
 
 .titulo-habilidades {
-    color: var(--color1);
+    color: #0B5345;
 }
 
 .texto-habilidades {
     position: absolute;
     padding: .5rem;
-    background-color: var(--color1);
+    background-color: #0B5345;
     border-radius: 5px;
     position: absolute;
     width: 300px;
@@ -381,7 +388,7 @@
 }
 
 .texto-habilidades p {
-    color: var(--color3);
+    color: white;
     font-size: .8rem;
 }
 
@@ -398,21 +405,20 @@
 .proyectos {
     width: 100%;
     height: auto;
-    border-right: 2px solid var(--color1);
-    color: var(--color1);
+    border-right: 2px solid #0B5345;
+    color: #0B5345;
     position: relative;
     padding-bottom: 200px;
 }
-
 .proyectos h2 {
-    color: var(--color1);
+    color: #0B5345;
     font-size: 2rem;
     text-transform: uppercase;
     text-align: center;
 }
 
 .proyectos p {
-    color: var(--color2);
+    color:black;
     text-align: center;
 }
 
@@ -438,7 +444,7 @@
 }
 
 .proyecto-menu ul li {
-    color: var(--color1);
+    color: #0B5345;
     list-style-type: none;
     height: 100%;
     width: auto;
@@ -449,27 +455,28 @@
     font-size: .8rem;
     cursor: pointer;
     text-transform: uppercase;
-    border-top: 1px solid var(--color1);
+    border-top: 1px solid #0B5345;
+    transition: all 0.5s;
 }
 
 .proyecto-menu ul li:first-of-type {
-    border-left: 1px solid var(--color1);
+    border-left: 1px solid #0B5345;
 }
 
 .proyecto-menu ul li:last-of-type {
-    border-right: 1px solid var(--color1);
+    border-right: 1px solid #0B5345;
 }
 
 .proyecto-menu ul li:hover {
-    border-bottom: 2px solid var(--color1);
-    background-color: var(--color1);
-    color: var(--color3);
+    border-bottom: 2px solid #0B5345;
+    background-color: #0B5345;
+    color: white;
 }
 
 .proyecto-menu ul li.activa {
-    border-bottom: 2px solid var(--color1);
-    background-color: var(--color1);
-    color: var(--color3);
+    border-bottom: 2px solid #0B5345;
+    background-color: #0B5345;
+    color: white;
 }
 
 .proyecto-contenido {
@@ -478,7 +485,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--color1);
+    background-color: #0B5345;
     padding: 2rem;
 }
 
@@ -529,19 +536,19 @@
 }
 
 .links-proyecto a i {
-    background-color: var(--color3);
+    background-color: white;
     width: 15%;
     height: 100%;
     font-size: 1.3rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: var(--color1);
+    color: #0B5345;
 }
 
 .links-proyecto a span {
     width: 85%;
-    color: var(--color3);
+    color: white;
     height: 100%;
     font-size: .8rem;
     display: flex;
@@ -564,13 +571,13 @@ transform: scale(0);
 transition: 0.5s;
 }
 .links-proyecto a span:before {
-border-bottom: 1px solid var(--color3);
-border-left: 1px solid var(--color3);
+border-bottom: 1px solid white;
+border-left: 1px solid white;
 transform-origin: 0 100%;
 }
 .links-proyecto a span:after {
-border-top: 1px solid var(--color3);
-border-right: 1px solid var(--color3);
+border-top: 1px solid white;
+border-right: 1px solid white;
 transform-origin: 100% 0%;
 }
 .links-proyecto a span:hover:after,
@@ -589,7 +596,7 @@ transform: scale(1);
 }
 
 .proyecto-contenido-descripcion h2 {
-    color: var(--color3);
+    color: white;
     font-size: 2rem;
     font-weight: normal;
     text-transform: uppercase;
@@ -601,7 +608,7 @@ transform: scale(1);
 }
 
 .proyecto-contenido-descripcion .p p {
-    color: var(--color3);
+    color: white;
     text-align: left;
     margin-bottom: 1rem;
 }
@@ -617,8 +624,8 @@ transform: scale(1);
 
 .tecnologias-proyecto span {
     font-size: .8rem;
-    color: var(--color3);
-    background-color: var(--color5);
+    color: white;
+    background-color: orange;
     border-radius: 15px;
     padding: 3px 15px;
 }
@@ -626,21 +633,21 @@ transform: scale(1);
 /* CONTACTO */
 .contacto {
     width: 100%;
-    border-right: 2px solid var(--color1);
-    color: var(--color1);
+    border-right: 2px solid #0B5345;
+    color: #0B5345;
     position: relative;
     padding-bottom: 20px;
 }
 
 .contacto h2 {
-    color: var(--color1);
+    color: #0B5345;
     font-size: 2rem;
     text-transform: uppercase;
     text-align: center;
 }
 
 .contacto p {
-    color: var(--color2);
+    color: black;
     text-align: center;
 }
 
@@ -673,13 +680,13 @@ transform: scale(1);
 }
 
 .contacto-item a i{
-    color: var(--color1);
+    color: #0B5345;
     font-size: 3.5rem;
 }
 
 .contacto-item a span {
     font-size: 1rem;
-    color: var(--color1);
+    color: #0B5345;
 }
 
 .contacto-item a:before,
@@ -695,13 +702,13 @@ transform: scale(0);
 transition: 0.5s;
 }
 .contacto-item a:before {
-border-bottom: 2px solid var(--color5);
-border-left: 2px solid var(--color5);
+border-bottom: 2px solid orange;
+border-left: 2px solid orange;
 transform-origin: 0 100%;
 }
 .contacto-item a:after {
-border-top: 2px solid var(--color5);
-border-right: 2px solid var(--color5);
+border-top: 2px solid orange;
+border-right: 2px solid orange;
 transform-origin: 100% 0%;
 }
 .contacto-item a:hover:after,
@@ -713,15 +720,15 @@ transform: scale(1);
 .footer {
     height: 10vh;
     width: 100%;
-    color: var(--color1);
-    background-color: var(--color1);
+    color: #0B5345;
+    background-color: #0B5345;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .footer p {
-    color: var(--color3);
+    color: white;
 }
 
 .flecha-subir {
@@ -733,13 +740,13 @@ transform: scale(1);
 
 .flecha-subir i {
     font-size: 3rem;
-    color: var(--color5);
+    color: orange;
 }
 
 /* MENSAJE ENVIAR EMAIL */
 .correcto {
     width: 40%;
-    color: var(--color3);
+    color: orange;
     background-color: green;
     text-align: center;
     margin: 0 auto 20px auto;
@@ -749,8 +756,8 @@ transform: scale(1);
 
 .error_email {
     width: 40%;
-    color: var(--color3);
-    background-color: red;
+    color: #0B5345;
+    background-color: orange;
     text-align: center;
     margin: 20px auto 0 auto;
     text-transform: uppercase;
