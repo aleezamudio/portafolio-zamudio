@@ -1,0 +1,230 @@
+/* paleta de colores */
+:root {
+    --color1: #112236; /* menú */
+    --color2: #436280; /* hover menú */
+    --color3: white; /* tipografía y fondo*/
+    --color5: #c10416; /* botones y logo */
+}
+
+@media screen and (max-width: 1270px){
+    .logo i {
+        font-size: 1.2rem;
+    }
+
+    .logo .nombre {
+        font-size: 1.2rem;
+    }
+
+    .logo .apellido {
+        font-size: .9rem;
+    }
+
+    .navegacion ul li{
+        font-size: 1rem;
+    }
+
+    .rrss a i {
+        font-size: 1.5rem;
+    }
+
+    .texto-habilidades {
+        width: 200px;
+        margin-left: -100px;
+        padding: 5px;
+    }
+
+    .proyecto-menu ul li {
+        font-size: .8rem;
+        padding: 0 10px;
+    }
+
+    .links-proyecto a span {
+        font-size: .8rem;
+    }
+
+    .formulario {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    /* MENÚ */
+    .menu {
+        width: 30%;
+        left: -30%;
+        z-index: 1;
+    }
+
+    .ubicacion {
+        right: 5%;
+        top: 5%;
+    }
+
+    .navegacion ul li{
+        font-size: 1.3rem;
+    }
+
+    .rrss a i {
+        font-size: 1.5rem;
+    }
+
+    .hamburguesa {
+        position: absolute;
+        left: 5%;
+        top: 5%;
+        z-index: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    .hamburguesa i {
+        font-size: 2rem;
+        color: var(--color1);
+    }
+
+    .cerrar_menu {
+        cursor: pointer;
+        position: absolute;
+        top: 20px;
+        right: 15%;
+        top: 5%;
+        z-index: 2;
+        font-size: 2rem;
+        color: var(--color1);
+        display: none;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cerrar_menu i {
+        font-size: 2rem;
+        color: var(--color3);
+    }
+
+    /* CONTENIDO */
+    .contenido {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .quien-soy, .habilidades, .proyectos, .contacto {
+        border-left: 2px solid var(--color1);
+    }
+
+    
+    .svg-quien-soy-1, .svg-habilidades-1, .svg-proyectos-1, .svg-contacto-1{
+        top: -1px;
+    }
+    
+    .svg-quien-soy-2, .svg-habilidades-2, .svg-proyectos-2, .svg-contacto-2 {
+        bottom: -1px;
+    }
+
+    .quien-soy-contenido {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .quien-soy h1 {
+        font-size: 3rem;
+        width: 100%;
+    }
+
+    .emoji-saludo {
+        font-size: 2rem;
+        color: var(--color1);
+    }
+
+    .quien-soy p {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+    .grid-habilidades {
+        width: 90%;
+        gap: 5rem;
+    }
+
+    .texto-habilidades {
+        width: 200px;
+        margin-left: -100px;
+    }
+
+    .texto-habilidades p {
+        font-size: .8rem;
+    }
+
+    .titulo-habilidades {
+        font-size: .8rem;
+    }
+
+    .proyecto {
+        width: 90%;
+        height: auto;
+    }
+
+    .proyecto-menu {
+        width: 100%;
+        height: 40px;
+    }
+
+    .proyecto-menu ul li {
+        font-size: .6rem;
+        padding: 0 10px;
+    }
+
+    .proyecto-contenido {
+        height: 350px;
+    }
+
+    .links-proyecto {
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+        gap: .5rem;
+    }
+
+    .links-proyecto a {
+        border: 1px solid var(--color3);
+    }
+
+    .links-proyecto a span:before,
+    .links-proyecto a span:after {
+        width: 0%;
+        height: 0%;
+    }
+
+    .links-proyecto a i {
+        font-size: 1rem;
+    }
+    
+    .links-proyecto a span {
+        font-size: .8rem;
+    }
+
+    .proyecto-contenido-descripcion h2 {
+        color: var(--color3);
+        font-size: 1.5rem;
+    }
+
+    .proyecto-contenido-descripcion p {
+        font-size: .8rem;
+    }
+
+    .tecnologias-proyecto {
+        gap: .5rem;
+    }
+
+    .tecnologias-proyecto span {
+        font-size: .8rem;
+        padding: 2px 5px;
+    }
+
+    .contacto-items {
+        width: 90%;
+    }
+
+}

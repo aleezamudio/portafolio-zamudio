@@ -1,0 +1,355 @@
+/* paleta de colores */
+:root {
+    --color1: #112236; /* menú */
+    --color2: #436280; /* hover menú */
+    --color3: white; /* tipografía y fondo*/
+    --color5: #c10416; /* botones y logo */
+}
+
+@media screen and (max-width: 550px) {
+    .menu {
+        width: 100%;
+        left: -100%;
+    }
+
+    .logo {
+        height: 30%;
+        padding-top: 20%;
+    }
+
+    .logo i {
+        font-size: 1.5rem;
+    }
+
+    .logo .nombre {
+        font-size: 1.5rem;
+    }
+
+    .logo .apellido {
+        font-size: 1.2rem;
+    }
+
+    .navegacion ul li{
+        font-size: 1.3rem;
+    }
+
+    .rrss {
+        height: 30%;
+        padding-bottom: 20%;
+    }
+
+    .rrss a i {
+        font-size: 2rem;
+    }
+
+    .proyecto-menu ul li {
+        font-size: .8rem;
+    }
+
+    .links-proyecto a span {
+        font-size: .8rem;
+    }
+
+    .ubicacion {
+        top: 3%;
+    }
+    
+    .hamburguesa {
+        top: 3%;
+    }
+
+    .cerrar_menu {
+        top: 3%;
+        right: 5%;
+    }
+
+    .hamburguesa i {
+        font-size: 2rem;
+    }
+
+    .cerrar_menu i {
+        font-size: 2rem;
+        color: var(--color3);
+    }
+
+    .ubicacion i {
+        font-size: 1.5rem;
+    }
+
+    .ubicacion span {
+        font-size: .8rem;
+    }
+
+    .svg-quien-soy-1, .svg-habilidades-1, .svg-proyectos-1, .svg-contacto-1{
+        height: 120px !important;
+        top: -1px;
+    }
+    
+    .svg-quien-soy-2, .svg-habilidades-2, .svg-proyectos-2, .svg-contacto-2 {
+        height: 120px !important;
+        bottom: -1px;
+    }
+    
+    .quien-soy-contenido {
+        width: 95%;
+        margin-left: 5%;
+    }
+    
+    .quien-soy h1 {
+        font-size: 2rem;
+        width: 90%;
+    }
+
+    .emoji-saludo {
+        font-size: 2rem;
+        color: var(--color1);
+    }
+
+    .quien-soy p {
+        font-size: .9rem;
+        width: 95%;
+        line-height: 1.3;
+    }
+
+    .modal {
+        max-width: 90%;
+        padding: .5rem;
+    }
+    
+    .modalSobreMi {
+        padding: .5rem;
+    }
+
+    .imagen-modal {
+        width: 100%;
+    }
+
+    .imagen-modal img {
+        width: 50%;
+        margin: 0 auto;
+    }
+    
+    .texto-modal p {
+        margin-bottom: .8rem;
+        font-size: .8rem;
+    }
+
+    .bajar span {
+        font-size: .8rem;
+    }
+    
+    .bajar i {
+        font-size: .8rem;
+        color: var(--color1);
+        margin-top: .7rem;
+    }
+
+    .habilidades h2, .proyectos h2, .contacto h2{
+        font-size: 1.3rem;
+    }
+    
+    .habilidades > p, .proyectos > p, .contacto > p {
+        font-size: .8rem;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .habilidades {
+        padding-bottom: 150px;
+    }
+
+    .grid-habilidades {
+        width: 90%;
+        gap: 3rem;
+        margin-top: 20px;
+    }
+    
+    .imagen-grid {
+        width: 60px;
+    }
+
+    .texto-habilidades {
+        width: 100px;
+        margin-left: -50px;
+        padding: 5px;
+    }
+
+    .texto-habilidades p {
+        font-size: .6rem;
+    }
+
+    .proyectos {
+        padding-bottom: 150px;
+    }
+
+    .proyecto {
+        height: auto;
+        margin-top: 20px;
+    }
+    
+    .proyecto-menu {
+        height: 7%;
+        width: 100%;
+    }
+
+    .proyecto-menu ul {
+        display: none;
+    }
+
+    .content-select select{
+        appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        padding: 0 10px;
+    }
+
+    .content-select select::-ms-expand {
+        display: none;
+    }
+
+    .content-select {
+        width: 100%;
+        height: 100%;
+        background-color: var(--color1);
+        color: white;
+        font-size: .8rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        border-bottom: 2px solid white;
+        padding: 7px 10px;
+    }
+
+    .content-select select{
+        display: inline-block;
+        width: 100%;
+        cursor: pointer;
+        height: 100%;
+        outline: 0; 
+        border: 0;
+        border-radius: 0;
+        background: var(--color1);
+        color: white;
+        font-size: .8rem;
+        position: relative;
+        transition: all 0.25s ease;
+    }
+
+    .content-select select option {
+        color: var(--color1);
+        background-color: white;
+    }
+
+    .content-select i {
+        padding: 0 10px;
+    }
+
+    .proyecto-contenido {
+        height: 93%;
+        flex-direction: column-reverse;
+        padding: 1rem;
+        gap: 1rem;
+    }
+
+    .proyecto-contenido-imagen {
+        padding-right: 0;
+        overflow: hidden;
+        flex-basis: 20%;
+        width: 100%;
+        flex-direction: column;
+        justify-content: flex-end;
+        gap: .5rem;
+    }
+
+    .multimedia-proyecto {
+        width: 100%;
+    }
+
+    .proyecto-contenido-descripcion {
+        padding-left: 0;
+        flex-basis: 80%;
+        justify-content: flex-start;
+    }
+
+    .links-proyecto {
+        gap: .5rem;
+    }
+
+    .links-proyecto a {
+        height: 22px;
+        border: 1px solid var(--color3);
+    }
+
+    .links-proyecto a span:before,
+    .links-proyecto a span:after {
+        width: 0%;
+        height: 0%;
+    }
+
+    .links-proyecto a i {
+        font-size: .6rem;
+    }
+    
+    .links-proyecto a span {
+        font-size: .6rem;
+    }
+
+    .proyecto-contenido-descripcion h2 {
+        font-size: 1rem;
+        margin-bottom: .5rem;
+    }
+
+    .proyecto-contenido-descripcion p {
+        font-size: .8rem;
+        margin-bottom: .5rem;
+    }
+
+    .tecnologias-proyecto {
+        gap: 5px;
+    }
+    
+    .tecnologias-proyecto span {
+        border-radius: 12px;
+        font-size: .6rem;
+    }
+
+    .contacto-items {
+        width: 90%;
+        margin: 20px auto 20px auto;
+    }
+
+    .contacto-item {
+        width: 33.3%;
+    }
+    
+    .contacto-item a i{
+        color: var(--color1);
+        font-size: 2.5rem;
+    }
+    
+    .contacto-item a span {
+        font-size: 1rem;
+        color: var(--color1);
+    }
+
+    .footer {
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .footer p {
+        font-size: .8rem;
+        text-align: center;
+        width: 90%;
+    }
+
+    .flecha-subir {
+        bottom: 50px;
+        right: 50px;
+    }
+    
+    .flecha-subir i {
+        font-size: 3rem;
+    }
+}

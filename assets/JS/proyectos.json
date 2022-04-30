@@ -1,0 +1,78 @@
+{
+    "proyectos": [
+
+      {
+        "nombre": "App Tiempo",
+        "descripcion": {
+            "uno": "App para consultar el tiempo en un tu ubicación o en una localización específica. Datos del día y de los próximos 5.",
+            "dos": "Consumiendo la api de openweathermap y usando fetch de JS para hacer peticiones asíncronas. Es responsive."
+        },
+        "iconos": ["<span>HTML</span>", "<span>CSS</span>", "<span>JavaScript</span>", "<span>Responsive</span>"],
+        "video": "assets/Videos/webm/app-tiempo.webm",
+        "github": "https://github.com/JuanjoGarciaGonzalez/app-tiempo",
+        "website": "https://app-tiempo.herokuapp.com/"
+      },
+
+      {
+        "nombre": "Space Tourism Website",
+        "descripcion": {
+            "uno": "Web de turismo espacial que consta de varias páginas dónde podrás informarte si quieres viajar al espacio.",
+            "dos": "Proyecto realizado por mi cuenta. Incorpora Ajax con un archivo JSON para mostrar información de forma asíncrona. Además es responsive con media queries."
+        },
+        "iconos": ["<span>HTML</span>", "<span>CSS</span>", "<span>JavaScript</span>", "<span>Responsive</span>"],
+        "video": "assets/Videos/webm/webturismoespacial.webm",
+        "github": "https://github.com/JuanjoGarciaGonzalez/webturismoespacial",
+        "website": "https://webturismoespacial.herokuapp.com/"
+      },
+
+      
+      {
+        "nombre": "Harry Web",
+        "descripcion": {
+            "uno": "Juego para desktop de preguntas y respuestas con temática de Harry Potter. Podrás elegir un avatar y un usuario, responder a unas preguntas con música asociada a cada película y un ranking de puntuación.",
+            "dos": "Este proyecto realizado junto a Adrián García (mi hermano) utiliza tecnologías front-end y back-end. JS, Ajax, PHP, SQL..."
+        },
+        "iconos": ["<span>HTML</span>", "<span>CSS</span>", "<span>JavaScript</span>", "<span>PHP</span>", "<span>MySQL</span>"],
+        "video": "assets/Videos/webm/qaharrypotter.webm",
+        "github": "https://github.com/JuanjoGarciaGonzalez/q-aharrypotter",
+        "website": "https://harry-web.000webhostapp.com/harry-web/"
+      },
+
+      {
+        "nombre": "Pasajeros-Vuelos",
+        "descripcion": {
+            "uno": "App Laravel para crear tickets de vuelos. Puedes crear o eliminar pasajeros/vuelos, y además crear o eliminar tickets.",
+            "dos": "Proyecto para practicar Laravel, relaciones y el modelo vista controlador. La interfaz está realizada con Bootstrap."
+        },
+        "iconos": ["<span>HTML</span>", "<span>CSS</span>", "<span>JavaScript</span>", "<span>Bootstrap</span>", "<span>Laravel</span>", "<span>MySQL</span>"],
+        "video": "assets/Videos/webm/pasajerosvuelos.webm",
+        "github": "https://github.com/JuanjoGarciaGonzalez/pasajerosvuelos",
+        "website": "http://pasajerosvuelos.herokuapp.com/"
+      },
+
+      {
+        "nombre": "Agenda clientes",
+        "descripcion": {
+            "uno": "Proyecto PHP realizado en clase. Necesitarás registrarte y hacer login para tener una sesión. Una vez dentro de la app, tendrás una agenda donde podras ver, editar, actualizar y eliminar contactos.",
+            "dos": "Realizado con CSS nativo (y un navbar de Bootstrap) y PHP. Además de SQL y BBDD."
+        },
+        "iconos": ["<span>HTML</span>", "<span>CSS</span>", "<span>Bootstrap</span>", "<span>PHP</span>", "<span>MySQL</span>"],
+        "video": "assets/Videos/webm/agendaclientes.webm",
+        "github": "https://github.com/JuanjoGarciaGonzalez/agendaclientes",
+        "website": "https://proyectomodulo2.000webhostapp.com/PHP/Juanjo_examen_php/"
+      },
+
+      {
+        "nombre": "Porfolio",
+        "descripcion": {
+            "uno": "Web en la que estás ahora mismo ¡Espero que te guste! Este es uno de los proyectos más importantes para mí ya que espero tener oportunidades de trabajo gracias a él.",
+            "dos": "En cuanto a las tecnologías que he utilizado, HTML, CSS, JS, Ajax (con JSON) y JQuery. Es responsive."
+        },
+        "iconos": ["<span>HTML</span>", "<span>CSS</span>", "<span>JavaScript</span>", "<span>JQuery</span>", "<span>Responsive</span>"],
+        "video": "assets/Videos/webm/porfolio.webm",
+        "github": "https://github.com/JuanjoGarciaGonzalez/porfolio",
+        "website": "https://juanjogarciagonzalez.herokuapp.com/"
+      }
+
+    ]
+}
