@@ -31,7 +31,8 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    background: linear-gradient(to bottom, rgb(8, 53, 44),#0B5345);
+    background-image: linear-gradient(to right,rgb(8, 53, 44),#0B5345);
+
 }
 .btn_menu i{
     margin-left: 10px;
@@ -57,11 +58,12 @@
     font-size: 1.3rem;
     font-weight: bold;
     line-height: 1;
+    color: orange;
 }
 
 .logo .apellido {
     font-size: 1rem;
-    color: orange;
+    color: #ffffff;
     font-weight: bold;
     line-height: 1;
 }
@@ -149,6 +151,7 @@
     width: 88%;
     margin-left: 12%;
     overflow: hidden;
+    background-color: rgb(8, 53, 44);
 }
 
 /* QUIEN SOY */
@@ -174,7 +177,7 @@
 }
 
 .quien-soy h1 {
-    color: #0B5345;
+    color: #108e91;
     font-size: 4rem;
     line-height: 1.2;
 }
@@ -186,7 +189,7 @@
 
 .quien-soy p {
     width: 60%;
-    color: black;
+    color: #ffffff;
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 15px;
@@ -333,7 +336,7 @@
 }
 
 .habilidades h2 {
-    color: #0B5345;
+    color: orange;
     font-size: 2rem;
     text-transform: uppercase;
     text-align: center;
@@ -341,7 +344,7 @@
 }
 
 .habilidades p {
-    color: black;
+    color: white;
     text-align: center;
 }
 
@@ -370,7 +373,7 @@
 }
 
 .titulo-habilidades {
-    color: #0B5345;
+    color: #108e91;
 }
 
 .texto-habilidades {
@@ -411,14 +414,14 @@
     padding-bottom: 200px;
 }
 .proyectos h2 {
-    color: #0B5345;
+    color: orange;
     font-size: 2rem;
     text-transform: uppercase;
     text-align: center;
 }
 
 .proyectos p {
-    color:black;
+    color:#ffffff;
     text-align: center;
 }
 
@@ -640,14 +643,14 @@ transform: scale(1);
 }
 
 .contacto h2 {
-    color: #0B5345;
+    color: orange;
     font-size: 2rem;
     text-transform: uppercase;
     text-align: center;
 }
 
 .contacto p {
-    color: black;
+    color: #ffffff;
     text-align: center;
 }
 
@@ -760,7 +763,7 @@ transform: scale(1);
     background-color: orange;
     text-align: center;
     margin: 20px auto 0 auto;
-    text-transform: uppercase;
+    
     padding: .5rem;
 }
 

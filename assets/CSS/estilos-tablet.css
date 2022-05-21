@@ -1,9 +1,9 @@
 /* paleta de colores */
 :root {
-    --color1: #112236; /* menú */
-    --color2: #436280; /* hover menú */
-    --color3: white; /* tipografía y fondo*/
-    --color5: #c10416; /* botones y logo */
+    --color1: #0B5345; /* menú */
+    --color2 :#108e91 ; /* hover menú */
+    --color3: #ffffff; /* tipografía y fondo*/
+    --color5: orange; /* botones y logo */
 }
 
 @media screen and (max-width: 1270px){

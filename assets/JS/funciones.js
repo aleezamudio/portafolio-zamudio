@@ -250,16 +250,16 @@ const contacto_item = $(".contacto-item")
 
 contacto_item.mouseover(function() {
     id_item = $(this).attr("id")
-    $("#" + id_item + " a i").css("color", "#c10416")
-    $("#" + id_item + " a span").css("color", "#c10416")
+    $("#" + id_item + " a i").css("color", "#108e91")
+    $("#" + id_item + " a span").css("color", "#108e91")
     $("#" + id_item + " a i").css("transition", "all .15s ease")
     $("#" + id_item + " a span").css("transition", "all .15s ease")
 })
 
 contacto_item.mouseout(function() {
     id_item = $(this).attr("id")
-    $("#" + id_item + " a i").css("color", "#112236")
-    $("#" + id_item + " a span").css("color", "#112236")
+    $("#" + id_item + " a i").css("color", "#0B5345")
+    $("#" + id_item + " a span").css("color", "#0B5345")
     $("#" + id_item + " a i").css("transition", "all .15s ease")
     $("#" + id_item + " a span").css("transition", "all .15s ease")
 })
