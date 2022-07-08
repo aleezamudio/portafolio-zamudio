@@ -763,7 +763,7 @@ transform: scale(1);
     background-color: orange;
     text-align: center;
     margin: 20px auto 0 auto;
-    
+    text-transform: uppercase;
     padding: .5rem;
 }
 

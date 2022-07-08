@@ -2,15 +2,15 @@
     "proyectos": [
 
       {
-        "nombre": "App Tiempo",
+        "nombre": "Auth-Login",
         "descripcion": {
-            "uno": "App para consultar el tiempo en un tu ubicación o en una localización específica. Datos del día y de los próximos 5.",
-            "dos": "Consumiendo la api de openweathermap y usando fetch de JS para hacer peticiones asíncronas. Es responsive."
+            "uno": "Sistema de autenticación real, hecha en un servidor backend el cual se conecta a una aplicacion de Angular.",
+            "dos": "Se utiliza node, express, mongo, se hacen valoraciones, se encriptan contraseñas, etc."
         },
-        "iconos": ["<span>HTML</span>", "<span>CSS</span>", "<span>JavaScript</span>", "<span>Responsive</span>"],
-        "video": "assets/Videos/webm/app-tiempo.webm",
-        "github": "https://github.com/JuanjoGarciaGonzalez/app-tiempo",
-        "website": "https://app-tiempo.herokuapp.com/"
+        "iconos": ["<span>Node.Js</span>", "<span>Angular</span>", "<span>MongoDB</span>", "<span>Postman</span>"],
+        "video": "assets/Videos/webm/app-auth.mp4",
+        "github": "https://github.com/aleezamudio/authApp",
+        "website": "https://angular-auth-zamudio.herokuapp.com/auth/login"
       },
 
       {
