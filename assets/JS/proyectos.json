@@ -2,76 +2,64 @@
     "proyectos": [
 
       {
-        "nombre": "Auth-Login",
+        "nombre": "inicio de sesión de autenticación",
         "descripcion": {
             "uno": "Sistema de autenticación real, hecha en un servidor backend el cual se conecta a una aplicacion de Angular.",
-            "dos": "Se utiliza node, express, mongo, se hacen valoraciones, se encriptan contraseñas, etc."
+            "dos": "Se utiliza node, express, mongo, se hacen validaciones, se encriptan contraseñas, etc."
         },
         "iconos": ["<span>Node.Js</span>", "<span>Angular</span>", "<span>MongoDB</span>", "<span>Postman</span>"],
-        "video": "assets/Videos/webm/app-auth.mp4",
+        "video": "assets/Videos/webm/auth-calculator.mp4",
         "github": "https://github.com/aleezamudio/authApp",
-        "website": "https://angular-auth-zamudio.herokuapp.com/auth/login"
-      },
-
-      {
-        "nombre": "Space Tourism Website",
-        "descripcion": {
-            "uno": "Web de turismo espacial que consta de varias páginas dónde podrás informarte si quieres viajar al espacio.",
-            "dos": "Proyecto realizado por mi cuenta. Incorpora Ajax con un archivo JSON para mostrar información de forma asíncrona. Además es responsive con media queries."
-        },
-        "iconos": ["<span>HTML</span>", "<span>CSS</span>", "<span>JavaScript</span>", "<span>Responsive</span>"],
-        "video": "assets/Videos/webm/webturismoespacial.webm",
-        "github": "https://github.com/JuanjoGarciaGonzalez/webturismoespacial",
-        "website": "https://webturismoespacial.herokuapp.com/"
+        "website": "https://auth-server-calculator-byzamudio.vercel.app/"
       },
 
       
       {
-        "nombre": "Harry Web",
+        "nombre": "Carrito",
         "descripcion": {
-            "uno": "Juego para desktop de preguntas y respuestas con temática de Harry Potter. Podrás elegir un avatar y un usuario, responder a unas preguntas con música asociada a cada película y un ranking de puntuación.",
-            "dos": "Este proyecto realizado junto a Adrián García (mi hermano) utiliza tecnologías front-end y back-end. JS, Ajax, PHP, SQL..."
+            "uno": "Pagina web para comercio de electrodomesticos y productos informaticos",
+            "dos": "realizado con html,css y Javascript"
         },
-        "iconos": ["<span>HTML</span>", "<span>CSS</span>", "<span>JavaScript</span>", "<span>PHP</span>", "<span>MySQL</span>"],
-        "video": "assets/Videos/webm/qaharrypotter.webm",
-        "github": "https://github.com/JuanjoGarciaGonzalez/q-aharrypotter",
-        "website": "https://harry-web.000webhostapp.com/harry-web/"
+        "iconos": ["<span>HTML</span>", "<span>CSS</span>", "<span>JavaScript</span>"],
+        "video": "assets/Videos/webm/carrito.mp4",
+        "github": "https://github.com/aleezamudio/carrito_js",
+        "website": "https://carrito-js-rho.vercel.app/#"
       },
 
       {
-        "nombre": "Pasajeros-Vuelos",
+        "nombre": "pagina e-commerce",
         "descripcion": {
-            "uno": "App Laravel para crear tickets de vuelos. Puedes crear o eliminar pasajeros/vuelos, y además crear o eliminar tickets.",
-            "dos": "Proyecto para practicar Laravel, relaciones y el modelo vista controlador. La interfaz está realizada con Bootstrap."
+            "uno": "Profecto final entregado para muestra de productos y precios de un emprendimiento dedicado a la venta de electrodomesticos e insumos de computacion",
+            "dos": "el cual cuenta con diferentes paginas y enlases para una mayor interaccion del cliente "
         },
-        "iconos": ["<span>HTML</span>", "<span>CSS</span>", "<span>JavaScript</span>", "<span>Bootstrap</span>", "<span>Laravel</span>", "<span>MySQL</span>"],
-        "video": "assets/Videos/webm/pasajerosvuelos.webm",
-        "github": "https://github.com/JuanjoGarciaGonzalez/pasajerosvuelos",
-        "website": "http://pasajerosvuelos.herokuapp.com/"
+        "iconos": ["<span>HTML</span>", "<span>CSS</span>", "<span>JavaScript</span>", "<span>Bootstrap</span>"],
+        "video": "assets/Videos/webm/lumar.mp4",
+        "github": "https://github.com/aleezamudio/lumartecnologias_ecommerce",
+        "website": "https://lumartecnologias-ecommerce-dv25.vercel.app/"
       },
 
       {
-        "nombre": "Agenda clientes",
+        "nombre": "Buscador de clima",
         "descripcion": {
-            "uno": "Proyecto PHP realizado en clase. Necesitarás registrarte y hacer login para tener una sesión. Una vez dentro de la app, tendrás una agenda donde podras ver, editar, actualizar y eliminar contactos.",
-            "dos": "Realizado con CSS nativo (y un navbar de Bootstrap) y PHP. Además de SQL y BBDD."
+            "uno": "Proyecto en el cual se extrae datos de una API y brinda la informacion del clima de la ciudad que el usuario especifique.",
+            "dos": "Realizado con HTML, CSS y Javascript."
         },
-        "iconos": ["<span>HTML</span>", "<span>CSS</span>", "<span>Bootstrap</span>", "<span>PHP</span>", "<span>MySQL</span>"],
-        "video": "assets/Videos/webm/agendaclientes.webm",
-        "github": "https://github.com/JuanjoGarciaGonzalez/agendaclientes",
-        "website": "https://proyectomodulo2.000webhostapp.com/PHP/Juanjo_examen_php/"
+        "iconos": ["<span>HTML</span>", "<span>CSS</span>","<span>JS</span>" ],
+        "video": "assets/Videos/webm/clima.mp4",
+        "github": "https://github.com/aleezamudio/buscadorde_climas",
+        "website": "https://buscadorde-climas.vercel.app/"
       },
 
       {
-        "nombre": "Porfolio",
+        "nombre": "Calculadora-App",
         "descripcion": {
-            "uno": "Web en la que estás ahora mismo ¡Espero que te guste! Este es uno de los proyectos más importantes para mí ya que espero tener oportunidades de trabajo gracias a él.",
-            "dos": "En cuanto a las tecnologías que he utilizado, HTML, CSS, JS, Ajax (con JSON) y JQuery. Es responsive."
+            "uno": "Calculadora creada con Angular, la cual  cuenta con alertas, almacena datos en el Storage, guarda y limpia el historial de las cuentas creadas ",
+            "dos": "En cuanto a las tecnologías que he utilizado, HTML, CSS, BOOTSTRAP, ANGULAR"
         },
-        "iconos": ["<span>HTML</span>", "<span>CSS</span>", "<span>JavaScript</span>", "<span>JQuery</span>", "<span>Responsive</span>"],
-        "video": "assets/Videos/webm/porfolio.webm",
-        "github": "https://github.com/JuanjoGarciaGonzalez/porfolio",
-        "website": "https://juanjogarciagonzalez.herokuapp.com/"
+        "iconos": ["<span>HTML</span>", "<span>CSS</span>", "<span>Bootstrap</span>", "<span>Angular</span>"],
+        "video": "assets/Videos/webm/calculadora-app.mp4",
+        "github": "https://github.com/aleezamudio/Calculadora_App",
+        "website": "https://calculadora-app-orcin.vercel.app/"
       }
 
     ]

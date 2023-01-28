@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alejandro Zamudio</title>
+    <!-- FONT AWESOME -->
+    
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- JQUERY -->
+    <script src="assets/JS/jquery-3.6.0.min.js"></script>
+    <!-- jQuery Modal -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css"
+    />
+    <!--AOS CSS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- ESTILOS PROPIOS -->
+    <link rel="stylesheet" href="assets/CSS/estilos-desktop.css" />
+    <link rel="stylesheet" href="assets/CSS/estilos-tablet.css" />
+    <link rel="stylesheet" href="assets/CSS/estilos-mobile.css" />
+    <!-- FUNCIONES PROPIAS -->
+    <script src="assets/JS/funciones.js" defer></script>
+    <!-- FAVICON -->
+    <link
+    rel="icon"
+    sizes="32x32"
+    href="assets/Images/icono.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/Images/icono.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/Images/icono.png"
+    />
+  </head>
+  <body>
+    <!-- MENÚ -->
+    <div class="menu">
+      <div class="logo">
+        <i class="fas fa-code"></i>
+        <p class="nombre">Alejandro</p>
+        <p class="apellido">Zamudio</p>
+      </div>
+
+      <nav class="navegacion">
+        <ul>
+          <li>
+            <span class="btn_menu"><i class="fa fa-home"></i></span>
+            <a href="#quien-soy" class="activa links">Inicio</a>
+          </li>
+          <li>
+            <span class="btn_menu"><i class="fa fa-pen"></i></span>
+            <a href="#habilidades" class="links">Habilidades</a>
+          </li>
+          <li>
+            <span class="btn_menu"><i class="fa fa-eye"></i></span>
+            <a href="#proyectos" class="links">Proyectos</a>
+          </li>
+          <li>
+            <span class="btn_menu"><i class="fa fa-address-book"></i></span>
+            <a href="#contacto" class="links">Contacto</a>
+          </li>
+          <li>
+            <a
+              href="assets/Alejandro_Zamudio_CV.pdf"
+              download="AlejandroZamudio-CV"
+              target="_blank"
+              class="descargar-cv"
+              >Descargar CV</a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <div class="rrss">
+        <a
+          href="mailto:alejandrozamudio15@gmail.com?Subject=Contacto porfolio"
+          target="_blank"
+          rel="”noreferrer"
+          noopener”
+          ><i class="fas fa-envelope"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/alejandro-zamudio-31707623a/"
+          title="Mi Linkedin"
+          target="_blank"
+          rel="”noreferrer"
+          noopener”
+          ><i class="fab fa-linkedin-in"></i
+        ></a>
+        <a
+          href="https://api.whatsapp.com/send?phone=+541132481713&text=Hola!%20vi%20tu%20portafolio%20y%20me%20interesa%20contactarte"
+          title="Mi Whatsapp"
+          target="_blank"
+          rel="”noreferrer"
+          noopener”
+          ><i class="fab fa-whatsapp"></i
+        ></a>
+      </div>
+
+      <div class="cerrar_menu">
+        <i class="fas fa-times"></i>
+      </div>
+    </div>
+
+    <!-- MENÚ HAMBURGUESA -->
+    <div class="hamburguesa">
+      <i class="fas fa-bars"></i>
+    </div>
+
+    <!-- CONTENIDO -->
+    <main class="contenido">
+      <section class="quien-soy" id="quien-soy">
+        <div class="ubicacion">
+          <i class="fas fa-globe-europe"></i>
+          <span>Buenos Aires, AR.</span>
+        </div>
+
+        <div class="bajar">
+          <span>scroll</span>
+          <i class="fas fa-long-arrow-alt-down"></i>
+        </div>
+
+        <div class="quien-soy-contenido">
+          <h1>
+            ¡Hola! <span class="emoji-saludo">&#128075;</span><br />Mi nombre es
+            Alejandro<br />
+            y soy Desarrollador Web.
+          </h1>
+          <p>
+            Bienvenido a la pagina web de un autodidacta en constante
+            aprendizaje. He realizado este portafolio desde 0 con el fin de
+            mostrar mis proyectos y habilidades. Siéntete libre de navegar en
+            esta web y de contactarme si así lo deseas.
+          </p>
+          <a href="#modalSobreMi" rel="modal:open" id="mas-sobre-mi"
+            ><i class="fas fa-info-circle"></i> Más sobre mí</a
+          >
+        </div>
+
+        <div id="modalSobreMi" class="modal">
+          <div class="modalSobreMi">
+            <div class="imagen-modal">
+              <img src="assets/Images/perfil.png" alt="Foto de perfil" />
+            </div>
+            <div class="texto-modal">
+              <p>
+                Vivo en Rafael Castillo, La matanza(Bs As). Tengo 23 años. Soy
+                un estudiante en curso de TEC.En web en la Universidad Nacional
+                de la Matanza(UnLaM) y estudiante de inlges en "IAP". He
+                aprendido mediante cursos en plataformas digitales como "Coder
+                House", "Udemy" y diferentes cursos gratuitos en la web,
+                habilidades como frontend, backend, despliegue de sitios web,
+                accesibilidad, autenticación,etc. Además practico bastante por
+                mi cuenta ya que me gusta lo que hago. Me gustaría conseguir mi
+                primer trabajo de desarrollador web e ir aprendiendo poco a poco
+                más en profundidad este mundo maravilloso y extenso.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div style="height: 150px; overflow: hidden" class="svg-quien-soy-2">
+          <svg
+            viewBox="0 0 500 150"
+            preserveAspectRatio="none"
+            style="height: 100%; width: 100%"
+          >
+            <path
+              d="M0.00,49.98 C300.51,263.00 336.62,-42.91 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+              style="stroke: none; fill: #0b5345"
+            ></path>
+          </svg>
+        </div>
+      </section>
+
+      <section class="habilidades" id="habilidades" >
+        <div style="height: 150px; overflow: hidden" class="sbg-habilidades-1">
+          <svg
+            viewBox="0 0 500 150"
+            preserveAspectRatio="none"
+            style="height: 100%; width: 100%"
+          >
+            <path
+              d="M0.00,49.98 C149.99,150.00 271.49,-49.98 500.00,49.98 L500.00,0.00 L0.00,0.00 Z"
+              style="stroke: none; fill: #0b5345"
+            ></path>
+          </svg>
+        </div>
+        <h2 data-aos="fade-right">Habilidades</h2>
+        <p data-aos="fade-right">Conjunto de tecnologías que aprendí y utilizo dia a dia</p>
+        <div class="grid-habilidades">
+          <div class="imagen-grid" id="1">
+            <img src="assets/Images/html.png" alt="Logo HTML" />
+            <span class="titulo-habilidades">HTML</span>
+            <div class="texto-habilidades">
+              <p>
+                Me siento bastante cómodo trabajando en HTML, aplicando
+                semántica y generando la estructura
+              </p>
+            </div>
+          </div>
+
+          <div class="imagen-grid" id="2">
+            <img src="assets/Images/css.png" alt="Logo CSS" />
+            <span class="titulo-habilidades">CSS</span>
+            <div class="texto-habilidades">
+              <p>
+                Uso Flexbox y Grid para posicionar, estilos modernos y
+                animaciones.
+              </p>
+            </div>
+          </div>
+
+          <div class="imagen-grid" id="3">
+            <img src="assets/Images/js.png" alt="Logo JS" />
+            <span class="titulo-habilidades">JavaScript</span>
+            <div class="texto-habilidades">
+              <p>
+                Mi primer lenguaje de programación. Capturar elementos, eventos,
+                funciones, ajax...
+              </p>
+            </div>
+          </div>
+
+          <div class="imagen-grid" id="4">
+            <img src="assets/Images/bootstrap.png" alt="Logo Bootstrap" />
+            <span class="titulo-habilidades">Bootstrap</span>
+            <div class="texto-habilidades">
+              <p>Uso esporádico para layouts simples o componentes.</p>
+            </div>
+          </div>
+
+          <div class="imagen-grid" id="5">
+            <img src="assets/Images/jquery.png" alt="Logo JQuery" />
+            <span class="titulo-habilidades">JQuery</span>
+            <div class="texto-habilidades">
+              <p>
+                He realizado varios proyectos con esta librería y me siento
+                cómodo trabajando con ella o combinándola con JS.
+              </p>
+            </div>
+          </div>
+
+          <div class="imagen-grid" id="6">
+            <img src="assets/Images/nodejs.png" alt="Logo NODE" />
+            <span class="titulo-habilidades">Node.js</span>
+            <div class="texto-habilidades">
+              <p>
+                Aprendí back-end con este lenguaje. Tratar datos de formularios,Variables, estructuras de controlo, métodos, clases,
+                validaciones, cruds, etc...
+              </p>
+            </div>
+          </div>
+
+          <div class="imagen-grid" id="7">
+            <img src="assets/Images/mongodb.png" alt="mongodb" />
+            <span class="titulo-habilidades">mongoDB</span>
+            <div class="texto-habilidades">
+              <p>
+                He aprendido a generar base de datos con mongodb y conectarlas on mi servidor.
+              </p>
+            </div>
+          </div>
+
+          <div class="imagen-grid" id="8">
+            <img src="assets/Images/sql.png" alt="Logo SQL" />
+            <span class="titulo-habilidades">MySQL</span>
+            <div class="texto-habilidades">
+              <p>
+                Comandos esenciales, relaciones, gestión de BBDD y uso en la
+                terminal.
+              </p>
+            </div>
+          </div>
+
+          <div class="imagen-grid">
+            <img src="assets/Images/git.png" alt="Logo Git" />
+            <span class="titulo-habilidades">GIT</span>
+            <div class="texto-habilidades">
+              <p>
+                Controlo las versiones de mis proyectos y me facilita bastante
+                la gestión de mis archivos.
+              </p>
+            </div>
+          </div>
+
+          <div class="imagen-grid">
+            <img src="assets/Images/github.png" alt="Logo GitHub" />
+            <span class="titulo-habilidades">GitHub</span>
+            <div class="texto-habilidades">
+              <p>
+                Aquí subo todos los proyectos que tienen importancia para mí.
+              </p>
+            </div>
+          </div>
+
+          <div class="imagen-grid">
+            <img src="assets/Images/xampp.png" alt="Logo Angular" />
+            <span class="titulo-habilidades">Angular</span>
+            <div class="texto-habilidades">
+              <p>Angular es de los Frameworks que mas eh utilizado en diferentes proyectos.</p>
+            </div>
+          </div>
+
+          <!--div class="imagen-grid">
+            <img src="assets/Images/laragon.jpg" alt="Logo Laragon" />
+            <span class="titulo-habilidades">Laragon</span>
+            <div class="texto-habilidades">
+              <p>Esta suite la uso sobretodo para proyectos Laravel.</p>
+            </div>
+          </div>
+        </div-->
+        <div style="height: 150px; overflow: hidden" class="svg-habilidades-2">
+          <svg
+            viewBox="0 0 500 150"
+            preserveAspectRatio="none"
+            style="height: 100%; width: 100%"
+          >
+            <path
+              d="M0.00,49.98 C300.51,263.00 336.62,-42.91 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+              style="stroke: none; fill: #0b5345"
+            ></path>
+          </svg>
+        </div>
+      </section>
+
+      <section class="proyectos" id="proyectos" >
+        <div style="height: 150px; overflow: hidden" class="sbg-proyectos-1">
+          <svg
+            viewBox="0 0 500 150"
+            preserveAspectRatio="none"
+            style="height: 100%; width: 100%"
+          >
+            <path
+              d="M0.00,49.98 C149.99,150.00 271.49,-49.98 500.00,49.98 L500.00,0.00 L0.00,0.00 Z"
+              style="stroke: none; fill: #0b5345"
+            ></path>
+          </svg>
+        </div>
+        <h2 data-aos="zoom-in">Proyectos</h2>
+        <p data-aos="zoom-in">Proyectos que he realizado tanto en clase como por mi cuenta</p>
+        <div class="proyecto">
+          <div class="proyecto-menu">
+            <ul></ul>
+
+            <div class="content-select">
+              <select
+                name="proyecto-menu-item"
+                id="proyecto-menu-item"
+              ></select>
+              <i class="fas fa-caret-down"></i>
+            </div>
+          </div>
+
+          <div class="proyecto-contenido">
+            <div class="proyecto-contenido-imagen">
+              <div class="multimedia-proyecto">
+                <video
+                  width="100%"
+                  height="auto"
+                  class="video"
+                  autoplay
+                  loop
+                  muted
+                  src=""
+                ></video>
+              </div>
+
+              <div class="links-proyecto">
+                <a
+                  href=""
+                  class="github"
+                  target="_blank"
+                  rel="”noreferrer"
+                  noopener”
+                  ><i class="fab fa-github"></i
+                  ><span>Repositorio de GitHub</span></a
+                >
+                <a
+                  href=""
+                  class="website"
+                  target="_blank"
+                  rel="”noreferrer"
+                  noopener”
+                  ><i class="fas fa-link"></i><span>Website</span></a
+                >
+              </div>
+            </div>
+
+            <div class="proyecto-contenido-descripcion">
+              <div class="texto">
+                <h2 class="titulo-proyecto"></h2>
+
+                <div class="p">
+                  <p class="puno"></p>
+                  <p class="pdos"></p>
+                </div>
+              </div>
+
+              <div class="tecnologias-proyecto"></div>
+            </div>
+          </div>
+        </div>
+        <div style="height: 150px; overflow: hidden" class="svg-proyectos-2">
+          <svg
+            viewBox="0 0 500 150"
+            preserveAspectRatio="none"
+            style="height: 100%; width: 100%"
+          >
+            <path
+              d="M0.00,49.98 C300.51,263.00 336.62,-42.91 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+              style="stroke: none; fill: #0b5345"
+            ></path>
+          </svg>
+        </div>
+      </section>
+
+      <section class="contacto" id="contacto">
+        <div style="height: 150px; overflow: hidden" class="sbg-contacto-1">
+          <svg
+            viewBox="0 0 500 150"
+            preserveAspectRatio="none"
+            style="height: 100%; width: 100%"
+          >
+            <path
+              d="M0.00,49.98 C149.99,150.00 271.49,-49.98 500.00,49.98 L500.00,0.00 L0.00,0.00 Z"
+              style="stroke: none; fill: #0b5345"
+            ></path>
+          </svg>
+        </div>
+        <h2  data-aos="zoom-in-down">Contacto</h2>
+        <p  data-aos="zoom-in-down">Contáctame por estas vías</p>
+
+        <div class="contacto-items">
+          <div class="contacto-item" id="uno">
+            <a
+              href="mailto:alejandrozamudio15@gmail.com?Subject=Contacto porfolio"
+              target="_blank"
+              rel="”noreferrer"
+              noopener”
+              ><i class="fas fa-envelope"></i><span>Email</span></a
+            >
+          </div>
+
+          <div class="contacto-item" id="dos">
+            <a
+              href="https://www.linkedin.com/in/alejandro-zamudio-31707623a/"
+              target="_blank"
+              rel="”noreferrer"
+              noopener”
+              ><i class="fab fa-linkedin-in"></i><span>LinkedIn</span></a
+            >
+          </div>
+
+          <div class="contacto-item" id="cuatro">
+            <a
+              href="https://api.whatsapp.com/send?phone=+541132481713&text=Hola!%20vi%20tu%20portafolio%20y%20me%20interesa%20contactarte"
+              target="_blank"
+              rel="”noreferrer"
+              noopener”
+              ><i class="fab fa-whatsapp"></i><span>Whatsapp</span></a
+            >
+          </div>
+        </div>
+      </section>
+
+      <!-- FOOTER -->
+      <footer class="footer">
+        <p>
+          Realizado por Alejandro Gabriel Zamudio·
+          <span class="contenedor-ano"></span>
+        </p>
+      </footer>
+
+      <!-- FLECHA SUBIR -->
+      <a
+        href="#quien-soy"
+        title="Ir arriba"
+        class="flecha-subir"
+        id="flecha-subir"
+        ><i class="fas fa-arrow-alt-circle-up"></i
+      ></a>
+    </main>
+     <!--AOS JS-->
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+     <script>
+      AOS.init();
+      </script>
+
+  </body>
+</html>
