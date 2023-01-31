@@ -37,6 +37,17 @@
         "github": "https://github.com/aleezamudio/lumartecnologias_ecommerce",
         "website": "https://lumartecnologias-ecommerce-dv25.vercel.app/"
       },
+      {
+        "nombre": "Buscador de recetas",
+        "descripcion": {
+            "uno": "Buscador que cuenta con diferentes categorias y variantes en cuanto a recetas de cocina.",
+            "dos": "Consumidor de diferentes APIs(3) que traen a la pantalla; imagenes, nombres, recetas, etc.   "
+        },
+        "iconos": ["<span>HTML</span>", "<span>CSS</span>", "<span>JavaScript</span>", "<span>Bootstrap</span>"],
+        "video": "assets/Videos/webm/buscador.mp4",
+        "github": "https://github.com/aleezamudio/recetas_buscador",
+        "website": "https://recetas-buscador-zamudio.vercel.app/"
+      },
 
       {
         "nombre": "Buscador de clima",
