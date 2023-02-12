@@ -10,10 +10,8 @@
         "iconos": ["<span>Node.Js</span>", "<span>Angular</span>", "<span>MongoDB</span>", "<span>Postman</span>"],
         "video": "assets/Videos/webm/auth-calculator.mp4",
         "github": "https://github.com/aleezamudio/authApp",
-        "website": "https://auth-server-ruby.vercel.app/auth/login"
+        "website": "https://auth-server-calculator-byzamudio.vercel.app/auth/login" 
       },
-
-      
       {
         "nombre": "Carrito",
         "descripcion": {
@@ -48,7 +46,17 @@
         "github": "https://github.com/aleezamudio/recetas_buscador",
         "website": "https://recetas-buscador-zamudio.vercel.app/"
       },
-
+      {
+        "nombre": "Cotizacion de criptomoneda",
+        "descripcion": {
+            "uno": "Peticion API del valor del precio de diferentes criptomonedas ",
+            "dos": "Realizado con HTML, CSS y Javascript."
+        },
+        "iconos": ["<span>HTML</span>", "<span>CSS</span>","<span>JS</span>" ],
+        "video": "assets/Videos/webm/cripto.mp4",
+        "github": "https://github.com/aleezamudio/api_criptomonedas",
+        "website": "https://api-criptomonedas-zamudio.vercel.app/"
+      },
       {
         "nombre": "Buscador de clima",
         "descripcion": {
