@@ -10,7 +10,7 @@
         "iconos": ["<span>Node.Js</span>", "<span>Angular</span>", "<span>MongoDB</span>", "<span>Postman</span>"],
         "video": "assets/Videos/webm/auth-calculator.mp4",
         "github": "https://github.com/aleezamudio/auth-server",
-        "website": "https://auth-server-calculator-byzamudio.vercel.app/auth/login" 
+        "website": "https://auth-server-production-b404.up.railway.app/auth/login" 
       },
       {
         "nombre": "Carrito",
