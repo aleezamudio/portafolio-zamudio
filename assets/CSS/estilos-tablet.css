@@ -3,7 +3,7 @@
     --color1: #0B5345; /* menú */
     --color2 :#108e91 ; /* hover menú */
     --color3: #ffffff; /* tipografía y fondo*/
-    --color5: orange; /* botones y logo */
+    --color5: #fba725; /* botones y logo */
 }
 
 @media screen and (max-width: 1270px){

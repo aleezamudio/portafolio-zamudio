@@ -3,10 +3,10 @@
 
 /* paleta de colores */
 :root {
-    --color1: #0B5345; /* menú */
-    --color2 :#108e91 ; /* hover menú */
+    --color1: #0B5345; /* menú  #0B5345*/
+    --color2 :#108e91 ; /* hover menú #455A64 */
     --color3: #ffffff; /* tipografía y fondo*/
-    --color5: orange; /* botones y logo */
+    --color5: #fba725; /* botones y logo */
 }
 
 /* GENERALES */
@@ -38,7 +38,7 @@
     margin-left: 10px;
     font-size: 18px;
     color: #108e91;
-    text-shadow: 1px 1px 2px orange;
+    text-shadow: 1px 1px 2px #fba725;
 }
 .logo {
     width: 100%;
@@ -58,7 +58,7 @@
     font-size: 1.3rem;
     font-weight: bold;
     line-height: 1;
-    color: orange;
+    color: #fba725;
 }
 
 .logo .apellido {
@@ -111,7 +111,7 @@
 
 .descargar-cv {
     color: white;
-    background-color: orange;
+    background-color: #fba725;
 }
 
 .descargar-cv:hover{
@@ -134,7 +134,7 @@
 }
 
 .rrss a i:hover {
-    color: orange;
+    color: #fba725;
     transition: color .15s ease-in-out;
 }
 
@@ -198,7 +198,7 @@
 
 .quien-soy a {
     cursor: pointer;
-    color: orange;
+    color: #fba725;
     font-size: 1rem;
     width: 130px;
     display: flex;
@@ -210,7 +210,7 @@
 
 .quien-soy a i {
     cursor: pointer;
-    color: orange;
+    color: #fba725;
     font-size: 1rem;
 }
 
@@ -336,7 +336,7 @@
 }
 
 .habilidades h2 {
-    color: orange;
+    color: #fba725;
     font-size: 2rem;
     text-transform: uppercase;
     text-align: center;
@@ -414,7 +414,7 @@
     padding-bottom: 200px;
 }
 .proyectos h2 {
-    color: orange;
+    color: #fba725;
     font-size: 2rem;
     text-transform: uppercase;
     text-align: center;
@@ -628,7 +628,7 @@ transform: scale(1);
 .tecnologias-proyecto span {
     font-size: .8rem;
     color: white;
-    background-color: orange;
+    background-color: #fba725;
     border-radius: 15px;
     padding: 3px 15px;
 }
@@ -643,7 +643,7 @@ transform: scale(1);
 }
 
 .contacto h2 {
-    color: orange;
+    color: #fba725;
     font-size: 2rem;
     text-transform: uppercase;
     text-align: center;
@@ -705,13 +705,13 @@ transform: scale(0);
 transition: 0.5s;
 }
 .contacto-item a:before {
-border-bottom: 2px solid orange;
-border-left: 2px solid orange;
+border-bottom: 2px solid #fba725;
+border-left: 2px solid #fba725;
 transform-origin: 0 100%;
 }
 .contacto-item a:after {
-border-top: 2px solid orange;
-border-right: 2px solid orange;
+border-top: 2px solid #fba725;
+border-right: 2px solid #fba725;
 transform-origin: 100% 0%;
 }
 .contacto-item a:hover:after,
@@ -743,13 +743,13 @@ transform: scale(1);
 
 .flecha-subir i {
     font-size: 3rem;
-    color: orange;
+    color: #fba725;
 }
 
 /* MENSAJE ENVIAR EMAIL */
 .correcto {
     width: 40%;
-    color: orange;
+    color: #fba725;
     background-color: green;
     text-align: center;
     margin: 0 auto 20px auto;
@@ -760,7 +760,7 @@ transform: scale(1);
 .error_email {
     width: 40%;
     color: #0B5345;
-    background-color: orange;
+    background-color: #fba725;
     text-align: center;
     margin: 20px auto 0 auto;
     text-transform: uppercase;

@@ -1,17 +1,7 @@
 {
     "proyectos": [
 
-      {
-        "nombre": "inicio de sesión de autenticación",
-        "descripcion": {
-            "uno": "Sistema de autenticación real, hecha en un servidor backend el cual se conecta a una aplicacion de Angular.",
-            "dos": "Si hay algun tipo de error en el sitio web, hacer un cd en la carpeta auth-server e inicializar el servidor con un npm-run-dev y por ultimo abrir un localhost:4000 en la web. Se utiliza node, express, mongo, se hacen validaciones, se encriptan contraseñas, etc."
-        },
-        "iconos": ["<span>Node.Js</span>", "<span>Angular</span>", "<span>MongoDB</span>", "<span>Postman</span>"],
-        "video": "assets/Videos/webm/auth-calculator.mp4",
-        "github": "https://github.com/aleezamudio/auth-server",
-        "website": "https://auth-server-production-b404.up.railway.app/auth/login" 
-      },
+      
       {
         "nombre": "Carrito",
         "descripcion": {
